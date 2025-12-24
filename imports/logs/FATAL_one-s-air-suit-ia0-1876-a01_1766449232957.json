@@ -1,0 +1,62 @@
+{
+  "product": "one-s-air-suit-ia0-1876-a01",
+  "message": "GraphQL errors",
+  "details": [
+    {
+      "message": "ProductVariant optionIds must include one optionId from each of the groups: ",
+      "locations": [
+        {
+          "line": 3,
+          "column": 3
+        }
+      ],
+      "path": [
+        "createProductVariants"
+      ],
+      "extensions": {
+        "code": "USER_INPUT_ERROR"
+      }
+    }
+  ],
+  "response": {
+    "errors": [
+      {
+        "message": "ProductVariant optionIds must include one optionId from each of the groups: ",
+        "locations": [
+          {
+            "line": 3,
+            "column": 3
+          }
+        ],
+        "path": [
+          "createProductVariants"
+        ],
+        "extensions": {
+          "code": "USER_INPUT_ERROR"
+        }
+      }
+    ],
+    "data": null
+  },
+  "batchSample": {
+    "firstSku": "IA0-1876-A01-063-46",
+    "lastSku": "IA0-1876-A01-379-64",
+    "size": 50,
+    "example": {
+      "productId": "5969",
+      "enabled": true,
+      "sku": "IA0-1876-A01-063-46",
+      "price": 1150,
+      "optionIds": [
+        "7318",
+        "7308"
+      ],
+      "translations": [
+        {
+          "languageCode": "pt",
+          "name": "RED / WHITE / 46"
+        }
+      ]
+    }
+  }
+}

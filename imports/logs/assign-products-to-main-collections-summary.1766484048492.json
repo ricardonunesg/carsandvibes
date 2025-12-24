@@ -1,0 +1,10 @@
+{
+  "DRY_RUN": true,
+  "productsProcessed": 1531,
+  "variantsTouched": 2296,
+  "productsMissingInDb": 0,
+  "productsWithNoVariants": 1419,
+  "appliedMain": 112,
+  "appliedSecond": 1,
+  "errors": []
+}

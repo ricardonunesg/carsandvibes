@@ -1,0 +1,19 @@
+{
+  "DRY_RUN": false,
+  "productsProcessed": 2,
+  "createdProducts": 0,
+  "createdVariants": 0,
+  "skippedExistingSkus": 50,
+  "skippedDuplicateCombos": 0,
+  "skippedMissingOptionValues": 0,
+  "errors": [
+    {
+      "product": "one-s-air-suit-ia0-1876-a01",
+      "log": "/root/carsandvibes/imports/logs/FATAL_one-s-air-suit-ia0-1876-a01_1766446821633.json"
+    },
+    {
+      "product": "one-s-air-suit-ia0-1876-a01",
+      "log": "/root/carsandvibes/imports/logs/FATAL_one-s-air-suit-ia0-1876-a01_1766446821634.json"
+    }
+  ]
+}

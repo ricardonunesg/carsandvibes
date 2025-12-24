@@ -1,0 +1,10 @@
+{
+  "DRY_RUN": false,
+  "productsInXlsx": 1531,
+  "productsFoundInDb": 1531,
+  "productsMissingInDb": 0,
+  "alreadyHadVariants": 112,
+  "defaultVariantsPlanned": 1419,
+  "defaultVariantsCreated": 1419,
+  "errors": []
+}

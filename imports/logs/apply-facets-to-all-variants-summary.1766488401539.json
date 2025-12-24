@@ -1,0 +1,15 @@
+{
+  "DRY_RUN": false,
+  "productsInXlsx": 1531,
+  "productsFoundInDb": 1530,
+  "productsMissingInDb": 1,
+  "variantsTouched": 3714,
+  "appliedFacetValueIds": [
+    "89",
+    "90",
+    "91",
+    "92",
+    "88"
+  ],
+  "errors": []
+}

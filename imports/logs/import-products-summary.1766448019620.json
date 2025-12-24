@@ -1,0 +1,10 @@
+{
+  "DRY_RUN": false,
+  "productsProcessed": 1,
+  "createdProducts": 1,
+  "createdVariants": 50,
+  "skippedExistingSkus": 0,
+  "skippedDuplicateCombos": 0,
+  "skippedMissingOptionValues": 0,
+  "errors": []
+}

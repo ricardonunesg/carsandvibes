@@ -1,0 +1,329 @@
+{
+  "product": {
+    "productCode": "IA0-1876-A01",
+    "name": "ONE-S AIR SUIT",
+    "description": "ONE-S AIR SUIT\nDesigned for highest lightness and ease of customization, the ONE-S AIR Suit features an ultralightweight, breathable fabric and simplified cut. It’s ideal for teams seeking branding flexibility without sacrificing fit or comfort.\n\n• OMP Air technology\n• FIA 8856-2018 (SFI upon request)\n• 10% more breathable and 18% lighter than previous ONE-S\n• Minimal cut design studied to optimize customization\n• Pre-shaped sleeves to improve ergonomic fit\n• Elastic inserts on back,crotch and armhole\n• Soft hand feel with optional black inner lining\n• Extremely refined finish with differentiated threads and minimal cuffs\n• Shaped collar\n• Extraction handles\n• Ultraflat seams\n• Premium metal zip\n• Hidden outer pocket\n• OMP branded velcro at collar closure\nBuilt to improve driver's focus through increased freedom of movement and reduced thermal load.\n\nColors :Black/White/Silver (171), Silver/Black (189), Navy blue/Fluo orange (249), Red/White (063), Black/Teal (379)\nSizes :46÷64",
+    "slug": "one-s-air-suit",
+    "variants": [
+      {
+        "sku": "IA0-1876-A01-063-46",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 RED / WHITE SZ. 46",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-063-48",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 RED / WHITE SZ. 48",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-063-50",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 RED / WHITE SZ. 50",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-063-52",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 RED / WHITE SZ. 52",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-063-54",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 RED / WHITE SZ. 54",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-063-56",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 RED / WHITE SZ. 56",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-063-58",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 RED / WHITE SZ. 58",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-063-60",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 RED / WHITE SZ. 60",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-063-62",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 RED / WHITE SZ. 62",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-063-64",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 RED / WHITE SZ. 64",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-171-46",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 BLACK / SILVER SZ. 46",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-171-48",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 BLACK / SILVER SZ. 48",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-171-50",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 BLACK / SILVER SZ. 50",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-171-52",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 BLACK / SILVER SZ. 52",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-171-54",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 BLACK / SILVER SZ. 54",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-171-56",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 BLACK / SILVER SZ. 56",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-171-58",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 BLACK / SILVER SZ. 58",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-171-60",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 BLACK / SILVER SZ. 60",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-171-62",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 BLACK / SILVER SZ. 62",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-171-64",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 BLACK / SILVER SZ. 64",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-189-46",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 SILVER / BLACK SZ. 46",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-189-48",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 SILVER / BLACK SZ. 48",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-189-50",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 SILVER / BLACK SZ. 50",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-189-52",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 SILVER / BLACK SZ. 52",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-189-54",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 SILVER / BLACK SZ. 54",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-189-56",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 SILVER / BLACK SZ. 56",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-189-58",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 SILVER / BLACK SZ. 58",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-189-60",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 SILVER / BLACK SZ. 60",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-189-62",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 SILVER / BLACK SZ. 62",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-189-64",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 SILVER / BLACK SZ. 64",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-249-46",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 NAVY BLUE / FLUO ORANGE SZ. 46",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-249-48",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 NAVY BLUE / FLUO ORANGE SZ. 48",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-249-50",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 NAVY BLUE / FLUO ORANGE SZ. 50",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-249-52",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 NAVY BLUE / FLUO ORANGE SZ. 52",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-249-54",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 NAVY BLUE / FLUO ORANGE SZ. 54",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-249-56",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 NAVY BLUE / FLUO ORANGE SZ. 56",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-249-58",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 NAVY BLUE / FLUO ORANGE SZ. 58",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-249-60",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 NAVY BLUE / FLUO ORANGE SZ. 60",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-249-62",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 NAVY BLUE / FLUO ORANGE SZ. 62",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-249-64",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 NAVY BLUE / FLUO ORANGE SZ. 64",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-379-46",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 BLACK / TEAL SZ. 46",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-379-48",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 BLACK / TEAL SZ. 48",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-379-50",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 BLACK / TEAL SZ. 50",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-379-52",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 BLACK / TEAL SZ. 52",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-379-54",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 BLACK / TEAL SZ. 54",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-379-56",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 BLACK / TEAL SZ. 56",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-379-58",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 BLACK / TEAL SZ. 58",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-379-60",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 BLACK / TEAL SZ. 60",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-379-62",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 BLACK / TEAL SZ. 62",
+        "price": 115000,
+        "optionMap": {}
+      },
+      {
+        "sku": "IA0-1876-A01-379-64",
+        "name": "ONE-S AIR OVERALL FIA 8856-2018 BLACK / TEAL SZ. 64",
+        "price": 115000,
+        "optionMap": {}
+      }
+    ],
+    "groupCodes": {}
+  },
+  "err": [
+    {
+      "message": "Fragment cannot be spread here as objects of type \"Product\" can never be of type \"ErrorResult\".",
+      "locations": [
+        {
+          "line": 4,
+          "column": 5
+        }
+      ],
+      "extensions": {
+        "http": {
+          "status": 400,
+          "headers": {}
+        },
+        "code": "GRAPHQL_VALIDATION_FAILED"
+      }
+    }
+  ]
+}

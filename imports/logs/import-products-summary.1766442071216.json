@@ -1,0 +1,15 @@
+{
+  "DRY_RUN": false,
+  "productsProcessed": 0,
+  "createdProducts": 1,
+  "createdVariants": 0,
+  "skippedExistingSkus": 0,
+  "skippedMissingOptionIds": 0,
+  "skippedDuplicateCombos": 0,
+  "errors": [
+    {
+      "product": "one-s-air-suit",
+      "log": "/root/carsandvibes/imports/logs/FATAL_one-s-air-suit.1766442071212.json"
+    }
+  ]
+}

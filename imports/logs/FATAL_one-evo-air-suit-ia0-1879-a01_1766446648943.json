@@ -1,0 +1,43 @@
+{
+  "product": "one-evo-air-suit-ia0-1879-a01",
+  "message": "GraphQL errors",
+  "details": [
+    {
+      "message": "Fragment cannot be spread here as objects of type \"Product\" can never be of type \"ProductOptionInUseError\".",
+      "locations": [
+        {
+          "line": 5,
+          "column": 5
+        }
+      ],
+      "extensions": {
+        "http": {
+          "status": 400,
+          "headers": {}
+        },
+        "code": "GRAPHQL_VALIDATION_FAILED"
+      }
+    }
+  ],
+  "response": {
+    "errors": [
+      {
+        "message": "Fragment cannot be spread here as objects of type \"Product\" can never be of type \"ProductOptionInUseError\".",
+        "locations": [
+          {
+            "line": 5,
+            "column": 5
+          }
+        ],
+        "extensions": {
+          "http": {
+            "status": 400,
+            "headers": {}
+          },
+          "code": "GRAPHQL_VALIDATION_FAILED"
+        }
+      }
+    ]
+  },
+  "stack": "Error: GraphQL errors\n    at curlGraphQL (file:///root/carsandvibes/imports/scripts/import-products-graphql.mjs:70:17)\n    at safeGraphQL (file:///root/carsandvibes/imports/scripts/import-products-graphql.mjs:80:30)\n    at addOptionGroupToProduct (file:///root/carsandvibes/imports/scripts/import-products-graphql.mjs:436:15)\n    at run (file:///root/carsandvibes/imports/scripts/import-products-graphql.mjs:540:23)\n    at file:///root/carsandvibes/imports/scripts/import-products-graphql.mjs:724:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)"
+}

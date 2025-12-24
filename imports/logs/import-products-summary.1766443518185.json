@@ -1,0 +1,15 @@
+{
+  "DRY_RUN": false,
+  "productsProcessed": 0,
+  "createdProducts": 0,
+  "createdVariants": 0,
+  "skippedExistingSkus": 0,
+  "skippedDuplicateCombos": 0,
+  "skippedMissingOptionValues": 0,
+  "errors": [
+    {
+      "product": "one-evo-air-suit",
+      "log": "/root/carsandvibes/imports/logs/FATAL_one-evo-air-suit_1766443518182.json"
+    }
+  ]
+}

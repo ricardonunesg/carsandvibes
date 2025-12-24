@@ -1,0 +1,11 @@
+{
+  "DRY_RUN": true,
+  "productsInXlsx": 1531,
+  "productsFoundInDb": 1531,
+  "productsMissingInDb": 0,
+  "alreadyHadVariants": 112,
+  "skippedHasOptionGroups": 1419,
+  "defaultVariantsPlanned": 0,
+  "defaultVariantsCreated": 0,
+  "errors": []
+}

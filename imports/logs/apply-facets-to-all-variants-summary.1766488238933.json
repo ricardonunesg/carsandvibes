@@ -1,0 +1,15 @@
+{
+  "DRY_RUN": true,
+  "productsInXlsx": 1531,
+  "productsFoundInDb": 1530,
+  "productsMissingInDb": 1,
+  "variantsTouched": 3714,
+  "appliedFacetValueIds": [
+    "DRY_FV_nav1_catalogo",
+    "DRY_FV_nav2_todos",
+    "DRY_FV_nav3_standard",
+    "DRY_FV_nav4_standard",
+    "88"
+  ],
+  "errors": []
+}
