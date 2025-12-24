@@ -1,0 +1,33 @@
+{
+  "name": "carsandvibes",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:server": "ts-node ./src/index.ts",
+    "dev:worker": "ts-node ./src/index-worker.ts",
+    "dev": "concurrently npm:dev:*",
+    "build": "tsc",
+    "start:server": "node ./dist/index.js",
+    "start:worker": "node ./dist/index-worker.js",
+    "start": "concurrently npm:start:*"
+  },
+  "dependencies": {
+    "@vendure/admin-ui-plugin": "^3.5.0",
+    "@vendure/asset-server-plugin": "3.5.0",
+    "@vendure/core": "3.5.0",
+    "@vendure/dashboard": "3.5.0",
+    "@vendure/elasticsearch-plugin": "^3.5.0",
+    "@vendure/email-plugin": "3.5.0",
+    "@vendure/graphiql-plugin": "^3.5.0",
+    "better-sqlite3": "12.4.1",
+    "dotenv": "17.2.3",
+    "node-fetch": "^3.3.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@vendure/cli": "3.5.0",
+    "concurrently": "9.2.1",
+    "typescript": "5.8.2"
+  },
+  "type": "module"
+}

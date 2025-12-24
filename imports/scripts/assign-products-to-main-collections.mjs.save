@@ -1,0 +1,141 @@
+#!/usr/bin/env node
+import fs from "node:fs";
+import path from "node:path";
+import process from "node:process";
+import { execFileSync } from "node:child_process";
+import xlsx from "xlsx";
+
+const ADMIN_API_URL = "http://localhost:3000/admin-api";
+const COOKIE_JAR = path.join(process.env.HOME, "carsandvibes/cookie-plain.jar");
+const INPUT_XLSX = path.join(
+  process.env.HOME,
+  "carsandvibes/imports/source/2026_RRP_OMP_23102025_variants_options_prepared.xlsx"
+);
+
+const CHANNEL_ID = "1"; // __default_channel__
+const DRY_RUN = (process.env.DRY_RUN ?? "1") === "1";
+
+function curlGraphQL(query, variables = {}) {
+  const payload = JSON.stringify({ query, variables });
+  const out = execFileSync(
+    "curl",
+    [
+      "-sS",
+      ADMIN_API_URL,
+      "-H", "Content-Type: application/json",
+      "-b", COOKIE_JAR,
+      "--data-binary", payload,
+    ],
+    { encoding: "utf-8" }
+  );
+  const json = JSON.parse(out);
+  if (json.errors) throw json.errors;
+  return json.data;
+}
+
+function slugify(s) {
+  return String(s)
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+/* carregar collections existentes */
+const collections = curlGraphQL(`
+  query {
+    collections(options:{ take: 200 }) {
+      items { id slug }
+    }
+  }
+`).collections.items;
+
+const collectionBySlug = new Map(
+  collections.map(c => [c.slug, c.id])
+);
+
+/* carregar produtos existentes */
+const products = curlGraphQL(`
+  query {
+    products(options:{ take: 2000 }) {
+      items { id slug }
+    }
+  }
+`).products.items;
+
+const productBySlug = new Map(
+  products.map(p => [p.slug, p.id])
+);
+
+/* ler XLSX */
+const wb = xlsx.readFile(INPUT_XLSX);
+const ws = wb.Sheets[wb.SheetNames[0]];
+const rows = xlsx.utils.sheet_to_json(ws, { defval: "" });
+
+/* agrupar por ProductCode */
+const byProduct = new Map();
+
+for (const r of rows) {
+  const code = String(r["ProductCode"] || "").trim();
+  if (!code) continue;
+
+  if (!byProduct.has(code)) {
+    byProduct.set(code, {
+      slug: slugify(`${r["ProductName"]}-${code}`),
+      cat1: String(r["Categoryn1"] || "").trim(),
+      cat2: String(r["Categoryn2"] || "").trim(),
+    });
+  }
+}
+
+/* processar */
+for (const p of byProduct.values()) {
+  const productId = productBySlug.get(p.slug);
+  if (!productId) {
+    console.log(`SKIP produto não encontrado: ${p.slug}`);
+    continue;
+  }
+
+  const collectionIds = [];
+
+  if (p.cat1) {
+    const slug = slugify(p.cat1);
+    if (collectionBySlug.has(slug)) {
+      collectionIds.push(collectionBySlug.get(slug));
+    }
+  }
+
+  if (p.cat2) {
+    const slug = slugify(p.cat2);
+    if (collectionBySlug.has(slug)) {
+      collectionIds.push(collectionBySlug.get(slug));
+    }
+  }
+
+  if (!collectionIds.length) continue;
+
+  if (DRY_RUN) {
+    console.log(`[DRY] assign ${p.slug} → ${collectionIds.join(",")}`);
+    continue;
+  }
+
+  curlGraphQL(
+    `
+    mutation($input: AssignProductsToChannelInput!) {
+      assignProductsToChannel(input: $input) { id }
+    }
+    `,
+    {
+      input: {
+        channelId: CHANNEL_ID,
+        productIds: [productId],
+      },
+    }
+  );
+
+  console.log(`OK collections → ${p.slug}`);
+}
+
+console.log("DONE");
+\\\
