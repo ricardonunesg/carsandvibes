@@ -1,0 +1,10 @@
+# dependencies
+node_modules/
+qwik-storefront/node_modules/
+
+# build / generated
+static/
+
+# optional (já tens dist pequeno, mas é build)
+dist/
+qwik-storefront/dist/
